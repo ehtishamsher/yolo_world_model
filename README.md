@@ -30,7 +30,7 @@ pip install ultralytics opencv-python tqdm
 
 ## Setup
 
-Open `annotate.py` and set the two required paths near the top:
+Open `yolo_world_implementation.py` and set the two required paths near the top:
 
 ```python
 INPUT_VIDEO = r"path/to/your/video.mp4"
@@ -44,7 +44,7 @@ Supported video formats: `.mp4`, `.avi`, `.mov`, `.mkv`, `.webm`, `.m4v`
 ## Usage
 
 ```bash
-python annotate.py
+python yolo_world_implementation.py
 ```
 
 You will be prompted to select a model variant:
